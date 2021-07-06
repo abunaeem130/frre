@@ -1,3 +1,53 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+font-size: 50px;
+}
+.header-color{
+    color: brown;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left:5%;
+}
+.half-width img{
+    width:80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,tomato);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+}
+.top-banner{
+    background-image: url(food-network-main/images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#heading-style{
+    text-align: center;
+}
+.food-manu{
+    width:100%;
+}
+.food-item{
+    width:20%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: solid;
+    border-radius: 40px;
+    margin-right: 5px;
+    box-shadow: 
+}
+.food-image img{
+     width:200px;
+     height: 200px;
+     border-radius: 25px;
 }
